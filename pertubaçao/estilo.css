@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 100px;
+    transition: background-color 0.5s;
+}
+#emoji {
+    font-size: 100px;
+}
+#saida {
+    font-size: 40px;
+}
+body.dia {
+    background-color: lightgreen;
+    color: lightyellow;
+}
+body.tarde{
+    background-color: darkorange;
+    color: purple;
+}
+body.noite{
+    background-color: black;
+    color: whitesmoke;
+}
